@@ -1,0 +1,304 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #222222;
+    z-index: 10;
+    color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+#o {
+    color:white;
+    text-decoration: none;
+    font-size: 120%;
+    font-stretch: ultra-condensed;
+    font-variant: small-caps;
+}
+
+li {
+    padding: 40 20 20 20;
+    float: left;
+}
+
+li:hover {
+    transition: 0.2s;
+    font-size: 115%;
+    background-color: #444444;
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    padding-bottom: 50px;
+    list-style: none;
+    margin-top: 0px;
+}
+
+#logo {
+    width: 66px;
+    position: absolute;
+    padding-top: 10px;
+    margin-left: 5%;
+}
+
+#fundo {
+    background: url("img/fundoii.jpg");
+    background-position-y: -100px;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    padding-top: 20%;
+    font-size: 60px;
+    line-height: 0.6;
+    text-shadow: 3px 3px black;
+}
+
+#subtitulo {
+    padding-top: 30px;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 5px solid white;
+    text-shadow: 2px 2px  black;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+#link_i {
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    border: 2px white solid;
+    text-shadow: 2px 2px black;
+    padding: 2px 10px 2px 10px ;
+}
+
+.margin {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.icone {
+    width: 70px;
+
+}
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+.destaque {
+    background-color: #eeeeee;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.destaqueI {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #eeeeee;
+    box-shadow: 1px 1px 10px 0.1px black;
+}
+
+#ameixa {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.imgu {
+    margin-top: 17px;
+    width: 95%;
+    box-shadow: 2px 2px 10px 1px black;
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.col {
+    float: right;
+    padding: 0 5%;
+    position: relative;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.coluno {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+#metas {
+    padding-top: 100px;
+}
+
+#atualidades {
+    padding-top: 100px;
+    box-shadow: 1px 1px 10px 0.1px black;
+}
+
+#noticias {
+    text-align:center;
+    padding-top: 30px;
+}
+
+#not {
+    text-align: center;
+    font-size: 15px;
+}
+
+.dois {
+    float: left;
+    width: 40%;
+}
+
+.quatro {
+    width: 15%;
+}
+
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+footer {
+    float: left;
+    background-color: #222222;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px 0.1px black;
+}
+
+@media all and (max-width: 768px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        border-radius: 10px;
+    }
+
+    #menu {
+        visibility: hidden;
+    }
+
+    #fundo {
+        background-position: center;
+    }
+
+    #titulo {
+        font-size: 35px;
+        padding-top: 200px;
+    }
+
+    #subtitulo {
+        font-size: 20px;
+    }
+
+    .dois {
+        float: none;
+        width: 93%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .col {
+        float: none;
+        padding: 0;
+    }
+
+    .destaque {
+        padding-bottom: 10px;
+    }
+
+    .destaqueI {
+        padding-top: 10px;
+        padding-left: 60px;
+        box-shadow: 0px 0px 0px 0px black;
+    }
+
+    .imgu {
+        width: 100%;
+    }
+
+    .coluna {
+        float: none;
+        padding: 0px;
+        padding-bottom: 60px;
+    }
+    
+    .coluno {
+        float: none;
+        padding: 0px;
+    }
+    
+    .quatro {
+        width: 100%;
+    }
+    
+    .tres {
+        width: 100%;
+    }
+
+    #metas {
+        padding-bottom: 0px;
+        margin: 10%;
+    }
+
+    #ameixa {
+        margin: 10%;
+        padding-top: 0px;
+    }
+
+    #l {
+        visibility: hidden;
+    }
+
+    #atualidades {
+        padding-left: 50px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 260;
+    }
+
+    #leia {
+        padding-bottom: 50px;
+    }
+
+}
