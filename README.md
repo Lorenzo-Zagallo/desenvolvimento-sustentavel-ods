@@ -2,7 +2,7 @@
 
 Este repositório contém o projeto desenvolvido durante o mini curso de HTML e CSS promovido pela Junior Achievement Brasil em 2020. O objetivo do curso foi proporcionar uma introdução ao desenvolvimento web, abordando os conceitos básicos de criação de páginas utilizando HTML e CSS.
 
-### Descrição do Projeto
+### Descrição do Projeto 
 
 O projeto consiste em uma página web estática que demonstra o uso de HTML para estruturação de conteúdo e CSS para estilização. Durante o curso, foram explorados diversos elementos e propriedades que permitem a criação de layouts atraentes e funcionais.
 
