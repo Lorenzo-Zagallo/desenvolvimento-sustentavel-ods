@@ -22,12 +22,12 @@ Para visualizar o projeto em seu navegador, siga os passos abaixo:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/nome-do-repositorio.git
+   git clone https://github.com/Lorenzo-Zagallo/lorenzozagallo.github.io.git
    ```
 
 2. Navegue até a pasta do projeto:
    ```bash
-   cd nome-do-repositorio
+   cd lorenzozagallo.github.io
    ```
 
 3. Abra o arquivo `index.html` em seu navegador preferido.
