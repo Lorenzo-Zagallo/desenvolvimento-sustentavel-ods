@@ -22,12 +22,12 @@ Para visualizar o projeto em seu navegador, siga os passos abaixo:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/Lorenzo-Zagallo/lorenzozagallo.github.io.git
+   git clone https://github.com/Lorenzo-Zagallo/desenvolvimento-sustentavel-ods.git
    ```
 
 2. Navegue até a pasta do projeto:
    ```bash
-   cd lorenzozagallo.github.io
+   cd desenvolvimento-sustentavel-ods
    ```
 
 3. Abra o arquivo `index.html` em seu navegador preferido.
